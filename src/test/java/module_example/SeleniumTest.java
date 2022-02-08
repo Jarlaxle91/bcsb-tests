@@ -1,7 +1,6 @@
 package module_example;
 
 import io.github.bonigarcia.seljup.SeleniumJupiter;
-import io.github.bonigarcia.seljup.SeleniumJupiter;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
