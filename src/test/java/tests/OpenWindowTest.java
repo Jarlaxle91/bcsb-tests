@@ -8,17 +8,21 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class OpenWindowTest extends TestBase {
 
-  @ExtendWith(SeleniumJupiter.class)
   @Test
   public void test1() {
     int i = 1 + 1;
+    System.out.println("First test start");
     assertThat(2);
+    System.out.println("First test end");
+
   }
 
-  @ExtendWith(SeleniumJupiter.class)
   @Test
   public void test2() {
+    System.out.println("Second test start");
     int i = 1 + 1;
     assertThat(4);
+    System.out.println("Second test end");
+
   }
 }

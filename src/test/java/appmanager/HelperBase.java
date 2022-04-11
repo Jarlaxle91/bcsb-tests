@@ -1,14 +1,14 @@
 package appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class HelperBase {
-  protected ChromeDriver wd;
+  protected FirefoxDriver wd;
 
-  public HelperBase(ChromeDriver wd) {
+  public HelperBase(FirefoxDriver wd) {
     this.wd = wd;
   }
 
@@ -26,9 +26,6 @@ public class HelperBase {
       }
     }
   }
-
-
-
 
   public boolean isElementPresent(By locator) {
     try {
